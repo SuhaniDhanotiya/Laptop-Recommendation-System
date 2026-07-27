@@ -1,6 +1,6 @@
 # 💻 Smart Laptop Finder
 
-An AI-powered Laptop Recommendation System that helps users discover the best laptops by analyzing their preferences and matching them with laptops having similar features and specifications.
+A Machine Learning-based Laptop Recommendation System that helps users discover the best laptops by analyzing their preferences and matching them with laptops having similar features and specifications.
 
 ---
 
@@ -33,12 +33,13 @@ The recommendation engine uses Machine Learning techniques to identify laptops w
 - NumPy
 - Scikit-learn
 - Streamlit
+- Scipy
 
 ---
 
 ## 🤖 Machine Learning Approach
 
-The recommendation system uses a content-based filtering approach.
+The recommendation engine uses Content-Based Filtering by converting laptop specifications into numerical feature vectors. Categorical features are encoded using One-Hot Encoding, numerical features are scaled using StandardScaler, and Cosine Similarity is used to recommend laptops with the most similar specifications.
 
 ### Data Preprocessing
 
@@ -111,16 +112,15 @@ Laptop-Recommendation-System/
 
 ### 🏠 Home Screen
 
-![Home](screenshots/home-screen.png)
+![Home](Screenshot/home-screen.png)
 
 ### 💻 Recommendation Results
 
-![Results](screenshots/recommendation-results.png)
+![Results](Screenshot/recommendation-results.png)
 
 ### ⭐ More Recommendations
 
-![Recommendations](screenshots/more-recommendations.png)
-
+![Recommendations](Screenshot/more-recommendations.png)
 ---
 
 ## ▶️ Installation
@@ -128,7 +128,7 @@ Laptop-Recommendation-System/
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Laptop-Recommendation-System.git
+git clone https://github.com/SuhaniDhanotiya/Laptop-Recommendation-System.git
 ```
 
 Move to the project directory
