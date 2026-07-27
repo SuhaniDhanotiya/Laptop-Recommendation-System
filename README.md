@@ -4,6 +4,12 @@ A Machine Learning-based Laptop Recommendation System that helps users discover 
 
 ---
 
+## 🌐 Live Demo
+
+https://laptop-recommendation-system-fslcahswf4fkrfmxhka4fx.streamlit.app/
+
+---
+
 ## 📌 Project Overview
 
 Choosing the right laptop can be confusing because of the large number of available options. This project simplifies the process by recommending laptops based on the user's preferred processor, RAM, storage, graphics type, operating system, and budget.
